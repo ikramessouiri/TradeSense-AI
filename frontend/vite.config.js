@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:5000',
+        target: 'tradesense-ai-production-cf79.up.railway.app',
         changeOrigin: true,
       },
     },
