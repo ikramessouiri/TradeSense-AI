@@ -45,7 +45,7 @@ TradeSense-AI/
 │   ├── src/             # Composants et Pages
 │   ├── public/          # Assets et Images
 │   └── package.json     # Dépendances JS
-└── README.md            # Documentation
+└── README.md            # Documentation ```
 💻 Développement
 Backend (Flask)
 Bash
