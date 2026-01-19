@@ -33,9 +33,10 @@
 
 ---
 
-## 📁 Structure du Projet
 
 ```text
+## 📁 Structure du Projet
+
 TradeSense-AI/
 ├── backend/             # Serveur Flask & API
 │   ├── app.py           # Point d'entrée principal
@@ -46,21 +47,26 @@ TradeSense-AI/
 │   ├── public/          # Assets et Images
 │   └── package.json     # Dépendances JS
 └── README.md            # Documentation
-
-###💻 Développement
-Backend (Flask)
+```
+### 💻 Développement
+**Backend (Flask)**
 Bash
 
 cd backend
 python app.py
-Frontend (React)
+**Frontend (React)**
 Bash
 
 cd frontend
 npm install
 npm run dev
-📈 Roadmap (Étapes du Projet)
-[x] Phase 1 : Fondations
+
+
+---
+
+
+### 📈 Roadmap (Étapes du Projet)
+**[x] Phase 1** : Fondations
 
 Architecture Backend Flask et API REST.
 
@@ -68,35 +74,51 @@ Intégration de la Landing Page React.
 
 Configuration de la base de données SQLite.
 
-[ ] Phase 2 : Authentification (En cours)
+**[ ] Phase 2** : Authentification (En cours)
 
 Système d'inscription et de connexion.
 
 Gestion des tokens de session.
 
-[ ] Phase 3 : Dashboard Avancé
+**[ ] Phase 3** : Dashboard Avancé
 
 Graphiques de performance en temps réel.
 
 Historique des trades simulés.
 
-🐛 Limitations Actuelles
+
+---
+
+
+### 🐛 Limitations Actuelles
 Données de Marché : Les graphiques utilisent actuellement des données simulées pour la démonstration.
 
-IA : Le chatbot simule une analyse intelligente (logique pré-programmée).
+**IA** : Le chatbot simule une analyse intelligente (logique pré-programmée).
 
-Paiements : Le système de checkout est une simulation visuelle (pas de transactions réelles).
+**Paiements** : Le système de checkout est une simulation visuelle (pas de transactions réelles).
 
-📄 Licence & Disclaimer
+
+---
+
+
+### 📄 Licence & Disclaimer
 Ce projet est réalisé dans un cadre pédagogique pour l'examen final.
 
 Licence : MIT
 
 Avertissement : Cette plateforme est une simulation et ne doit pas être utilisée pour du trading réel avec de l'argent véritable.
 
-📞 Contact
-Auteur : Ikram Essouiri
 
-GitHub : ikramessouiri
+---
 
-Construit avec ❤️ par l'équipe TradeSense AI.
+
+## 📞 Contact
+**Auteur** : Ikram Essouiri
+
+**GitHub** : ikramessouiri
+
+
+---
+
+
+**Construit avec ❤️ par l'équipe TradeSense AI.**
