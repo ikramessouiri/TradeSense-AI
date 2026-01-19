@@ -1,4 +1,5 @@
-"""Application configuration (development defaults)."""
+import os
 
-# SQLite for development (relative file-based DB)
-SQLALCHEMY_DATABASE_URL = "sqlite:///tradesense_dev.db"
+# Cette ligne vérifie si DATABASE_URL existe (sur Railway). 
+# Si elle n'existe pas (sur ton PC), elle utilise ton fichier SQLite.
+SQLALCHEMY_DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///tradesense_dev.db")
