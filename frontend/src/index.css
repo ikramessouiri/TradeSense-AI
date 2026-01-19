@@ -1,0 +1,7 @@
+/* Styles de base minimalistes (Tailwind chargé via CDN) */
+html, body, #root {
+  height: 100%;
+}
+body {
+  margin: 0;
+}
