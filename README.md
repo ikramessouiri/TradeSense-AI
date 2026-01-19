@@ -7,29 +7,29 @@
 ## 🚀 Fonctionnalités Clés
 
 ### 💹 Trading & Analyse
-- **Landing Page Immersive** : Design futuriste avec intégration d'objets 3D et effets de verre (Glassmorphism).
-- **AI-Powered Insights** : Chatbot intégré simulant une analyse de marché en temps réel.
-- **Challenge System** : Parcours utilisateur pour tester les compétences de trading sur différents paliers ($50K, $100K).
-- **Multi-Platform Dashboard** : Interface responsive optimisée pour Desktop et Mobile.
+* **Landing Page Immersive** : Design futuriste avec intégration d'objets 3D et effets de verre (Glassmorphism).
+* **AI-Powered Insights** : Chatbot intégré simulant une analyse de marché en temps réel.
+* **Challenge System** : Parcours utilisateur pour tester les compétences de trading sur différents paliers ($50K, $100K).
+* **Multi-Platform Dashboard** : Interface responsive optimisée pour Desktop et Mobile.
 
 ### 🔐 Sécurité & Backend
-- **Authentification** : Gestion des sessions utilisateurs via Flask.
-- **Base de données** : Stockage des profils et des performances via SQLite.
-- **Architecture Découplée** : Séparation stricte entre le Frontend (React) et le Backend (Flask).
+* **Authentification** : Gestion des sessions utilisateurs via Flask.
+* **Base de données** : Stockage des profils et des performances via SQLite.
+* **Architecture Découplée** : Séparation stricte entre le Frontend (React) et le Backend (Flask).
 
 ---
 
 ## 🛠️ Tech Stack
 
 **Frontend**
-- **Framework** : React.js
-- **Styling** : Tailwind CSS
-- **Animations** : Lucide React (Icônes), Framer Motion (Transitions)
+* **Framework** : React.js
+* **Styling** : Tailwind CSS
+* **Animations** : Lucide React (Icônes), Framer Motion (Transitions)
 
 **Backend**
-- **Framework** : Flask (Python 3.11+)
-- **Base de données** : SQLite / SQLAlchemy
-- **API** : RESTful Architecture
+* **Framework** : Flask (Python 3.11+)
+* **Base de données** : SQLite / SQLAlchemy
+* **API** : RESTful Architecture
 
 ---
 
@@ -46,22 +46,17 @@ TradeSense-AI/
 │   ├── public/          # Assets et Images
 │   └── package.json     # Dépendances JS
 └── README.md            # Documentation
-Markdown
+💻 Développement
+Backend (Flask)
+Bash
 
-## 💻 Développement
-
-### Backend (Flask)
-```bash
 cd backend
-# Lancer le serveur de développement
 python app.py
 Frontend (React)
 Bash
 
 cd frontend
-# Installer les dépendances
 npm install
-# Lancer l'application
 npm run dev
 📈 Roadmap (Étapes du Projet)
 [x] Phase 1 : Fondations
@@ -98,7 +93,7 @@ Licence : MIT
 
 Avertissement : Cette plateforme est une simulation et ne doit pas être utilisée pour du trading réel avec de l'argent véritable.
 
-**📞 Contact**
+📞 Contact
 Auteur : Ikram Essouiri
 
 GitHub : ikramessouiri
